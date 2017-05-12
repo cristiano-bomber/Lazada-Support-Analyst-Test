@@ -1,0 +1,59 @@
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+#sub-products-container {
+	width: 70%;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+
+#summary-cart-container {
+	width: 25%;
+	display: inline-block;	
+}
+
+.product-info-container {
+	padding: 10px 10px;
+	margin: 10px;
+	background: #eee;
+}
+
+.product-header-container .product-header-info,
+.product-info-container .product-info {
+	width: 50%;
+	display: inline-block;
+}
+
+.product-info-container .product-location .product-delivery-from {
+	width: 50%;
+}
+
+.product-header-container .product-header-price,
+.product-info-container .product-info-price {
+	width: 30%;
+	display: inline-block;
+}
+.product-info-container .product-info-price .product-price {
+	top: 0px;
+}
+
+.product-header-container .product-header-quantity,
+.product-info-container .product-info-quantity {
+	width: 15%;
+	display: inline-block;
+	text-align: center;
+
+	position: absolute;
+	z-index: 9999;
+}
+
+#checkout-cart{
+	width: 80%;
+	height: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #ffb600;
+}
